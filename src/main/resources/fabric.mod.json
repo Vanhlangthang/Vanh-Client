@@ -1,36 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
-  "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
-  "authors": [
-    "seasnail"
-  ],
+  "id": "vanh-client",
+  "version": "1.0.0",
+  "name": "Vanh Client",
+  "description": "Client hack manh nhat 1.21.4 by Vanh.",
+  "authors": ["Vanh"],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com"
   },
-  "icon": "assets/template/icon.png",
-  "environment": "client",
+  "license": "MIT",
+  "icon": "assets/vanh-client/icon.png",
+  "environment": "*",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "vn.vanhclient.VanhClient"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
-  "custom": {
-    "meteor-client:color": "225,25,25",
-    "modmenu": {
-      "parent": {
-        "id": "meteor-client"
-      }
-    }
-  },
   "depends": {
-    "java": ">=21",
-    "minecraft": ["${mc_version}"],
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
     "meteor-client": "*"
   }
 }
