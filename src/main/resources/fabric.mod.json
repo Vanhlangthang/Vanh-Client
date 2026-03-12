@@ -1,11 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "vanh-client",
-  "version": "1.0.0",
+  "version": "1.0.0-PRO",
   "name": "Vanh Client",
-  "description": "Client hack manh nhat 1.21.4 by Vanh.",
-  "authors": ["Vanh"],
+  "description": "Hacked Client manh nhat 1.21.4 voi Elytra Aim Macro & Prediction.",
+  "authors": [
+    "Vanh"
+  ],
   "contact": {
+    "homepage": "https://vanhclient.com",
     "sources": "https://github.com"
   },
   "license": "MIT",
@@ -18,7 +21,8 @@
   },
   "depends": {
     "fabricloader": ">=0.15.0",
-    "minecraft": "1.21.4",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
     "meteor-client": "*"
   }
 }
